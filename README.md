@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/chauhan508/LeetCode-solution/tree/master/1386-cinema-seat-allocation) |
+| [1927-sum-game](https://github.com/chauhan508/LeetCode-solution/tree/master/1927-sum-game) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1927-sum-game](https://github.com/chauhan508/LeetCode-solution/tree/master/1927-sum-game) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/chauhan508/LeetCode-solution/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/chauhan508/LeetCode-solution/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Binary Search
@@ -43,4 +45,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/chauhan508/LeetCode-solution/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+## String
+|  |
+| ------- |
+| [1927-sum-game](https://github.com/chauhan508/LeetCode-solution/tree/master/1927-sum-game) |
+## Game Theory
+|  |
+| ------- |
+| [1927-sum-game](https://github.com/chauhan508/LeetCode-solution/tree/master/1927-sum-game) |
 <!---LeetCode Topics End-->
