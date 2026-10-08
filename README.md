@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chauhan508/LeetCode-solution/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/chauhan508/LeetCode-solution/tree/master/0050-powx-n) |
 | [0836-rectangle-overlap](https://github.com/chauhan508/LeetCode-solution/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/chauhan508/LeetCode-solution/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/chauhan508/LeetCode-solution/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chauhan508/LeetCode-solution/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/chauhan508/LeetCode-solution/tree/master/0050-powx-n) |
 | [3483-unique-3-digit-even-numbers](https://github.com/chauhan508/LeetCode-solution/tree/master/3483-unique-3-digit-even-numbers) |
 ## Geometry
 |  |
