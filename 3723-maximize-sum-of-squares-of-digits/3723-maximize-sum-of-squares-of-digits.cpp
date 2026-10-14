@@ -3,7 +3,7 @@
 class Solution {
 public:
     std::string maxSumOfSquares(int num, int sum) {
-        // If the sum is greater than the maximum possible sum with 'num' digits, it's impossible.
+        
         if (sum > 9 * num) {
             return "";
         }
