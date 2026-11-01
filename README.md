@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/chauhan508/LeetCode-solution/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0835-image-overlap](https://github.com/chauhan508/LeetCode-solution/tree/master/0835-image-overlap) |
 | [1254-number-of-closed-islands](https://github.com/chauhan508/LeetCode-solution/tree/master/1254-number-of-closed-islands) |
 | [1386-cinema-seat-allocation](https://github.com/chauhan508/LeetCode-solution/tree/master/1386-cinema-seat-allocation) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/chauhan508/LeetCode-solution/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/chauhan508/LeetCode-solution/tree/master/0050-powx-n) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/chauhan508/LeetCode-solution/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0836-rectangle-overlap](https://github.com/chauhan508/LeetCode-solution/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/chauhan508/LeetCode-solution/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/chauhan508/LeetCode-solution/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
