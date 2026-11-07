@@ -1,45 +1,45 @@
-struct IndexedQuery {
-  int queryIndex;
-  int query;
-};
-
 class Solution {
- public:
-  vector<int> countServers(int n, vector<vector<int>>& logs, int x,
-                           vector<int>& queries) {
-    vector<int> ans(queries.size());
-    vector<int> count(n + 1);
-
-    ranges::sort(logs, ranges::less{},
-                 [](const vector<int>& log) { return log[1]; });
-
-    int i = 0;
-    int j = 0;
-    int servers = 0;
-
-  
-    for (const auto& [queryIndex, query] : getIndexedQueries(queries)) {
-      for (; j < logs.size() && logs[j][1] <= query; ++j)
-        if (++count[logs[j][0]] == 1)
-          ++servers;
-      for (; i < logs.size() && logs[i][1] < query - x; ++i)
-        if (--count[logs[i][0]] == 0)
-          --servers;
-      ans[queryIndex] = n - servers;
+public:
+    vector<int> countServers(int n, vector<vector<int>>& logs, int x, vector<int>& queries) {
+        int m = logs.size();
+        int qLen = queries.size();
+        
+        
+        sort(logs.begin(), logs.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[1] < b[1];
+        });
+        
+        vector<pair<int, int>> qSorted(qLen);
+        for (int i = 0; i < qLen; ++i) {
+            qSorted[i] = {queries[i], i};
+        }
+        sort(qSorted.begin(), qSorted.end());
+        
+        vector<int> ans(qLen);
+        unordered_map<int, int> serverFreq;
+        
+        int left = 0, right = 0;
+        
+        for (auto& [qTime, origIdx] : qSorted) {
+            int winStart = qTime - x;
+            int winEnd = qTime;
+            
+            while (right < m && logs[right][1] <= winEnd) {
+                serverFreq[logs[right][0]]++;
+                right++;
+            }
+            
+            while (left < m && logs[left][1] < winStart) {
+                serverFreq[logs[left][0]]--;
+                if (serverFreq[logs[left][0]] == 0) {
+                    serverFreq.erase(logs[left][0]);
+                }
+                left++;
+            }
+            
+            ans[origIdx] = n - serverFreq.size();
+        }
+        
+        return ans;
     }
-
-    return ans;
-  }
-
- private:
-  vector<IndexedQuery> getIndexedQueries(const vector<int>& queries) {
-    vector<IndexedQuery> indexedQueries;
-    for (int i = 0; i < queries.size(); ++i)
-      indexedQueries.push_back({i, queries[i]});
-    ranges::sort(indexedQueries,
-                 [](const IndexedQuery& a, const IndexedQuery& b) {
-      return a.query < b.query;
-    });
-    return indexedQueries;
-  }
 };
